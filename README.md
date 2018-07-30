@@ -5,7 +5,7 @@ This is a Rust implementation of Micah Lee's famous [pdf-redact-tools](https://g
 feature complete.
 
 I am using this tool as a chance to learn Rust, so the code may be really
-buggy. Please do not use this tool for learning purpose only.
+buggy. I am writing it for learning purpose.
 
 *Warning:* PDF Redact Tools uses ImageMagick to parse PDFs. While ImageMagick
 is a versatile tool, it has a history of some
