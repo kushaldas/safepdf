@@ -1,6 +1,7 @@
-FROM fedora:28
+FROM fedora:30
 LABEL MAINTAINER mail@kushaldas.in
 
+RUN echo "fastermirror=True" >> /etc/dnf/dnf.conf
 RUN dnf -y update
 RUN dnf install -y perl-Image-ExifTool GraphicsMagick
 RUN dnf install -y ghostscript-core
